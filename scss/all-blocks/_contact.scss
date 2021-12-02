@@ -1,0 +1,136 @@
+.contact {
+    margin: 0 auto;
+    width: 1111px;
+    bottom: -10%;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+.contact__container {
+    margin: 0 auto;
+    padding: 72px 95px 80px;
+    background-color: #E7816B;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__content {
+    margin: 0;
+    width: 459px;
+}
+
+.contact__heading {
+    margin: 0;
+    margin-bottom: 20px;
+    width: 268px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.contact__desc {
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.contact__button {
+    padding: 17px 18px;
+    width: 152px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333136;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+// RESPONSIVE
+@media only screen and (max-width: 1130px) {
+    .contact {
+        margin: 0 auto;
+        width: 65.438rem;
+        bottom: -10%;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    .contact {
+        margin: 0 auto;
+        width: 60.438rem;
+        bottom: -10%;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .contact {
+        margin: 0 auto;
+        width: 55rem;
+        bottom: -10%;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .contact {
+        margin: 0 auto;
+        width: 690px;
+        bottom: -10%;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+    .contact__container {
+        margin: 0 auto;
+        padding: 72px 95px 80px;
+        background-color: #E7816B;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contact__content {
+        margin: 0;
+        padding: 10px;
+        width: 459px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__heading {
+        margin: 0;
+        margin-bottom: 20px;
+        width: 268px;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 40px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .contact__desc {
+        margin: 0;
+        margin-bottom: 32px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}

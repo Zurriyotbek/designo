@@ -1,0 +1,270 @@
+.projects {
+    padding: 160px 0 80px;
+}
+
+.projects__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__content-wrapper {
+    padding: 0;
+    margin: 0;
+}
+
+.projects__web-design {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 541px;
+    height: 640px;
+    background-image: url(/images/web-design.png);
+    background-size: contain;
+    border-radius: 15px;
+}
+
+.projects__app-design {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 541px;
+    height: 308px;
+    background-image: url(/images/app-design.png);
+    background-size: contain;
+    border-radius: 15px;
+}
+
+.projects__graphic-design {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 541px;
+    height: 308px;
+    background-image: url(/images/graphic-design.jpg);
+    background-size: contain;
+    border-radius: 15px;
+}
+
+.projects__web-design:hover,
+.projects__app-design:hover,
+.projects__graphic-design:hover {
+    opacity: 0.5;
+}
+
+.projects__web-design--heading,
+.projects__app-design--heading,
+.projects__graphic-design--heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.projects__web-design--text,
+.projects__app-design--text,
+.projects__graphic-design--text {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+// RESPONSIVE TABLET
+@media only screen and (max-width: 1125px) {
+    .projects__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects__web-design {
+        margin: 0;
+        margin-bottom: 24px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45rem;
+        height: 19.25rem;
+        background-image: url(/images/web-design.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .projects__app-design {
+        margin: 0;
+        margin-bottom: 24px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45rem;
+        height: 19.25rem;
+        background-image: url(/images/app-design.png);
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .projects__graphic-design {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45rem;
+        height: 19.25rem;
+        background-image: url(/images/graphic-design.jpg);
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .projects__web-design--heading,
+    .projects__app-design--heading,
+    .projects__graphic-design--heading {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 24px;
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    .projects__web-design--text,
+    .projects__app-design--text,
+    .projects__graphic-design--text {
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        font-size: 0.938rem;
+        line-height: 1.375rem;
+        letter-spacing: 5px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .projects__web-design {
+        width: 35rem;
+        height: 19.25rem;
+    }
+    .projects__app-design {
+        width: 35rem;
+        height: 19.25rem;
+    }
+    .projects__graphic-design {
+        width: 35rem;
+        height: 19.25rem;
+    }
+    .projects__web-design--heading,
+    .projects__app-design--heading,
+    .projects__graphic-design--heading {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .projects__web-design--text,
+    .projects__app-design--text,
+    .projects__graphic-design--text {
+        font-size: 0.938rem;
+        line-height: 1.375rem;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .projects__web-design {
+        width: 25rem;
+        height: 19.25rem;
+    }
+    .projects__app-design {
+        width: 25rem;
+        height: 19.25rem;
+    }
+    .projects__graphic-design {
+        width: 25rem;
+        height: 19.25rem;
+    }
+    .projects__web-design--heading,
+    .projects__app-design--heading,
+    .projects__graphic-design--heading {
+        font-size: 2.0rem;
+        line-height: 2rem;
+    }
+    .projects__web-design--text,
+    .projects__app-design--text,
+    .projects__graphic-design--text {
+        font-size: 0.738rem;
+        line-height: 1.175rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .projects__web-design {
+        width: 20rem;
+        height: 15rem;
+    }
+    .projects__app-design {
+        width: 20rem;
+        height: 15rem;
+    }
+    .projects__graphic-design {
+        width: 20rem;
+        height: 15rem;
+    }
+    .projects__web-design--heading,
+    .projects__app-design--heading,
+    .projects__graphic-design--heading {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+    .projects__web-design--text,
+    .projects__app-design--text,
+    .projects__graphic-design--text {
+        font-size: 0.738rem;
+        line-height: 1.175rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .projects__web-design {
+        width: 15rem;
+        height: 13rem;
+    }
+    .projects__app-design {
+        width: 15rem;
+        height: 13rem;
+    }
+    .projects__graphic-design {
+        width: 15rem;
+        height: 13rem;
+    }
+    .projects__web-design--heading,
+    .projects__app-design--heading,
+    .projects__graphic-design--heading {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    .projects__web-design--text,
+    .projects__app-design--text,
+    .projects__graphic-design--text {
+        font-size: 0.738rem;
+        line-height: 1.175rem;
+    }
+}

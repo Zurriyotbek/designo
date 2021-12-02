@@ -1,0 +1,36 @@
+.header {
+    padding: 65px 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: all 0.3s;
+}
+
+.header__logo {
+    width: 196px;
+}
+
+.header__logo:hover {
+    transform: scale(0.9);
+}
+
+// HEADER BUTTON
+.header__button {
+    display: none;
+    margin: 0;
+    width: 24px;
+    height: 20px;
+    background-color: transparent;
+    background-image: url(/images/bars-solid.svg);
+    border: none;
+}
+
+// HEADER BUTTON RESPONSIVE 680PX
+@media only screen and (max-width:680px) {
+    .header__button {
+        display: inline-block;
+    }
+}

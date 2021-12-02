@@ -1,0 +1,124 @@
+.hero__container {
+    padding: 145px 95px;
+    background-color: #E7816B;
+    border-radius: 10px;
+    background-image: url(/images/Oval-hero.png), url(/images/hero-phone.png);
+    background-position: right center, right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero__content {
+    padding: 0;
+    padding-right: 40px;
+    width: 540px;
+}
+
+.hero__content-heading {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.hero__content-desc {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+// RESPONSIVE 1000PX 
+@media only screen and (max-width:1000px) {
+    .hero__container {
+        margin: 0 auto;
+        padding: 60px 58px;
+        padding-bottom: 457px;
+        display: flex;
+        justify-content: center;
+        background-image: url(/images/hero-Oval-tablet.png), url(/images/hero-phone-tablet.png);
+        background-size: 640px, 284px;
+        background-position: right center, center bottom;
+    }
+    .hero__content {
+        padding: 0;
+        width: 573px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero__content-heading {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .hero__content-desc {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 445px;
+    }
+}
+
+// MOBILE RESPONSIVE
+@media only screen and (max-width: 455px) {
+    .hero__container {
+        margin: 0 auto;
+        padding: 80px 20px;
+        padding-bottom: 457px;
+        display: flex;
+        justify-content: center;
+        background-image: url(/images/hero-Oval-tablet.png), url(/images/hero-phone-tablet.png);
+        background-size: 300px, 284px;
+        background-position: right center, center bottom;
+    }
+    .hero__content {
+        padding: 0;
+        width: 327px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero__content-heading {
+        text-align: center;
+        margin-bottom: 24px;
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .hero__content-desc {
+        margin-bottom: 24px;
+        padding: 0;
+        text-align: center;
+        width: 327px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+// SMALL MOBILES
+@media only screen and (max-width: 455px) {
+    .hero__content {
+        padding: 0;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero__content-heading {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .hero__content-desc {
+        margin-bottom: 20px;
+        padding: 0;
+        text-align: center;
+        width: 260px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

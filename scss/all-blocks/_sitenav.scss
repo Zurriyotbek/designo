@@ -1,0 +1,29 @@
+.nav__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav__item {
+    margin: 0;
+    margin-left: 42px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav__item:first-child {
+    margin-left: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #333136;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}

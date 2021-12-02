@@ -1,0 +1,40 @@
+.hamburger {
+    position: relative;
+}
+
+// NAVBAR RESPONSIVE 680PX
+@media only screen and (max-width:680px) {
+    .nav {
+        display: none;
+    }
+    .hamburger .nav {
+        display: inline-block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #1D1C1E;
+        width: 100%;
+    }
+    .hamburger .nav__list {
+        margin: 0;
+        padding: 48px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hamburger .nav__item {
+        margin: 0;
+        margin-bottom: 32px;
+    }
+    .hamburger .nav__item:last-child {
+        margin-bottom: 0;
+    }
+    .hamburger .nav__link {
+        color: white;
+    }
+    .hamburger .header__button {
+        background-image: url(/images/times-solid.svg);
+        background-repeat: no-repeat;
+        background-size: 24px 20px;
+    }
+}

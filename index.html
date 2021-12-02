@@ -1,12 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SCSS STARTER</title>
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designo</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,700;1,500&family=Manrope:wght@400;600&family=Spartan:wght@700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <!-- header logo -->
+            <a href="#" class="header__logo"><img src="images/header-logo@x2.png" alt="header-logo" class="header__logo-img" /></a>
+            <!-- navigation bar -->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">OUR COMPANY</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">LOCATIONS</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- header button -->
+            <button class="header__button"></button>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__content-heading">
+                        Award-winning custom designs and digital branding solutions
+                    </h1>
+                    <p class="hero__content-desc">
+                        With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.
+                    </p>
+                    <button class="button hero__content-btn">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+
+        <section class="projects">
+            <div class="container projects__container">
+                <div class="projects__web-design">
+                    <h2 class="projects__web-design--heading">WEB DESIGN</h2>
+                    <a class="projects__web-design--text" href="#">VIEW PROJECTS</a>
+                </div>
+                <div class="projects__content-wrapper">
+                    <div class="projects__app-design">
+                        <h2 class="projects__app-design--heading">APP DESIGN</h2>
+                        <a class="projects__app-design--text" href="#">VIEW PROJECTS</a>
+                    </div>
+                    <div class="projects__graphic-design">
+                        <h2 class="projects__graphic-design--heading">GRAPHIC DESIGN</h2>
+                        <a class="projects__graphic-design--text" href="#">VIEW PROJECTS</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="services">
+        <div class="container services__container">
+          <div class="services__content">
+            <div class="services__card">
+              <img
+                src="images/card-img-1.svg"
+                alt="a man who is sitting"
+                class="services__card-img"
+                width="202"
+                height="202"
+              />
+              <div class="services__card-text-wrapper">
+                <h3 class="services__card-heading">PASSIONATE</h3>
+                <p class="services__card-text">
+                  Each project starts with an in-depth brand research to ensure
+                  we only create products that serve a purpose. We merge art,
+                  design, and technology into exciting new solutions.
+                </p>
+              </div>
+            </div>
+            <div class="services__card">
+              <img
+                src="images/card-img-2.svg"
+                alt="a woman who is sitting"
+                class="services__card-img"
+                width="202"
+                height="202"
+              />
+              <div class="services__card-text-wrapper">
+                <h3 class="services__card-heading">RESOURCEFUL</h3>
+                <p class="services__card-text">
+                  Everything that we do has a strategic purpose. We use an agile
+                  approach in all of our projects and value customer
+                  collaboration. It guarantees superior results that fulfill our
+                  clients’ needs.
+                </p>
+              </div>
+            </div>
+            <div class="services__card">
+              <img
+                src="images/card-img-3.svg"
+                alt="a man and woman are holding a banner "
+                class="services__card-img"
+                width="202"
+                height="202"
+              />
+              <div class="services__card-text-wrapper">
+                <h3 class="services__card-heading">FRIENDLY</h3>
+                <p class="services__card-text">
+                  We are a group of enthusiastic folks who know how to put
+                  people first. Our success depends on our customers, and we
+                  strive to give them the best experience a company can provide.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CONTACT  -->
+
+        <div class="contact">
+          <div class="container contact__container">
+            <div class="contact__content">
+              <h4 class="contact__heading">Let’s talk about your project</h4>
+              <p class="contact__desc">
+                Ready to take it to the next level? Contact us today and find
+                out how our expertise can help your business grow.
+              </p>
+            </div>
+
+            <button class="contact__button">GET IN TOUCH</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__content-top">
+          <a href="#" class="footer__logo">
+            <img
+              src="/images/footer-logo.png"
+              alt="footer-logo"
+              class="footer__logo-img"
+            />
+          </a>
+                    </div>
+                </div>
+                </footer>
+
+                <script src="index.js"></script>
 </body>
+
 </html>
