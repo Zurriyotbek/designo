@@ -1,19 +1,158 @@
 .footer {
     background-color: #1D1C1E;
-    height: 400px;
+    &__container {
+        padding: 144px 20px 72px 20px;
+    }
+    &__content-top {
+        padding: 0 0 40px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    &__logo {
+        width: 202px;
+    }
+    &__logo-img {
+        width: 202px;
+        max-width: 100%;
+    }
 }
 
-.footer__container {
-    height: 400px;
+.footer-nav .nav {
+    display: inline-block;
 }
 
-.footer__content-top {}
-
-.footer__logo {
-    width: 202px;
+.footer-nav .nav__link {
+    color: white;
 }
 
-.footer__logo-img {
-    width: 202px;
-    max-width: 100%;
+.footer__content-bottom {
+    margin: 0;
+    padding: 0;
+    padding-top: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content-bottom-list-1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__content-bottom-list-1-item,
+.footer__content-bottom-list-2-item {
+    margin: 0;
+}
+
+.footer__content-bottom-list-1-item p,
+.footer__content-bottom-list-2-item p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.footer__content-bottom-list-2 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__content-bottom-list-3 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer__content-bottom-list-3-item {
+    margin: 0;
+    margin-left: 16px;
+}
+
+// RESPNSIVE TABLET
+@media only screen and (max-width:700px) {
+    .footer__container {
+        padding: 253px 20px 64px 20px;
+    }
+    .footer__content-top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 32px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .footer__logo-img {
+        width: 302px;
+        max-width: 100%;
+    }
+    .footer__content-top {
+        padding: 0 0 40px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: none;
+    }
+    .footer-nav .nav__list {
+        margin-top: 32px;
+        flex-direction: column;
+    }
+    .footer-nav .nav__item {
+        margin: 0;
+        margin-bottom: 32px;
+    }
+    .footer-nav .nav__link {
+        font-size: 18px;
+        line-height: 14px;
+        letter-spacing: 2px;
+    }
+    .footer__content-bottom {
+        margin: 0;
+        padding: 0;
+        padding-top: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__content-bottom-list-1,
+    .footer__content-bottom-list-2 {
+        margin-bottom: 40px;
+    }
+    .footer__content-bottom-list-1-item p,
+    .footer__content-bottom-list-2-item p {
+        text-align: center;
+    }
+}
+
+// RESPONSIVE MOBILE
+@media only screen and (max-width:500px) {
+    .footer__logo-img {
+        width: 202px;
+        max-width: 100%;
+    }
+    .footer-nav .nav__link {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .footer__content-bottom {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:280px) {
+    .footer__content-bottom-list-1-item p,
+    .footer__content-bottom-list-2-item p {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+    }
 }

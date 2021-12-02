@@ -54,7 +54,12 @@
     border-radius: 15px;
 }
 
-// RESPONSIVE
+.contact__button:hover {
+    cursor: pointer;
+    background-color: #FFAD9B;
+}
+
+// RESPONSIVE 
 @media only screen and (max-width: 1130px) {
     .contact {
         margin: 0 auto;
@@ -131,6 +136,90 @@
         font-size: 16px;
         line-height: 26px;
         color: #FFFFFF;
+        text-align: center;
+    }
+}
+
+// RESPONSIVE TABLET
+@media only screen and (max-width: 760px) {
+    .contact {
+        margin: 0 auto;
+        width: 600px;
+        bottom: -10%;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .contact {
+        margin: 0 auto;
+        width: 450px;
+        bottom: -10%;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+}
+
+// RESPONSIVE MOBILE
+@media only screen and (max-width: 490px) {
+    .contact {
+        margin: 0 auto;
+        width: 327px;
+        bottom: -10%;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+    .contact__content {
+        margin: 0;
+        padding: 10px;
+        width: 279px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__heading {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .contact__desc {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 368px) {
+    .contact {
+        margin: 0 auto;
+        max-width: 250px;
+        bottom: -10%;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+    .contact__content {
+        margin: 0;
+        padding: 10px;
+        width: 279px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__heading {
+        margin-bottom: 20px;
+        font-size: 32px;
+        line-height: 36px;
+        max-width: 200px;
+    }
+    .contact__desc {
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 200px;
         text-align: center;
     }
 }
